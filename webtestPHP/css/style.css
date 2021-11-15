@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30% ;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 40%;
+    margin: 6px;
+}
+input.themgiohang {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #38a259;
+    height: 30px;
+}
+input.themgiohang:hover {
+    border: 1px dashed black;
+    background-color: #c46424;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header{
+    border:1px solid black;
+    height: 160px;
+    width: 100%;
+    background-image: url("../images/tumblr_pf27bcJIMT1svp654o1_1280.jpg");
+    background-size: 100% 160px;
+    background-repeat: no-repeat;
+}
+.camon{
+    border:1px solid black;
+    height: 290px;
+    width: 59%;
+    background-image: url("../images/model.jpg");
+    float: left;
+    margin-left: 20px;
+    background-size: 100% 290px;
+    background-repeat: no-repeat;
+}
+.menu{
+    height: 60px;
+    width: 100%;
+}
+ul.list_menu li {
+    float: left;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: chartreuse;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+ul.list_menu li:hover {
+    background-color: rgb(226, 197, 32);
+
+}
+
+ul.list_menu2 {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 27px;
+}
+ul.list_menu2 li {
+    float: left;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: chartreuse;
+}
+ul.list_menu2 li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+ul.list_menu li:hover {
+    background-color: rgb(226, 197, 32);
+
+}
+
+ul.list_menu {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 27px;
+}
+
+.sidebar{
+   
+    height: 800px;
+    width: 20%;
+    margin-top: 6px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar li {
+    margin: 5px;
+    border: 1px solid  black;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: chartreuse;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    display: block;
+}
+ul.list_sidebar li:hover {
+    background-color: rgb(226, 197, 32);
+
+}
+ul.list_sidebar {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    width: 100%;
+    line-height: 27px;
+}
+ để chỉnh lại css vs backend thì Ctrl+ F5
+.maincontent{
+    height: auto;
+    width: 75%;
+    margin-top: 5px;
+    margin-right: 5px;
+    float:right;
+}
+ul.product_list {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    list-style: none;
+}
+ul.product_list li {
+    width: 15%;
+    border:1px solid rgb(82, 79, 79);
+    margin: 5px;
+    float: left;
+    height: 300px;
+}
+ul.product_list li img {
+    height: 160px;
+    width: 180px;
+}
+ul.product_list a {
+    text-decoration: none;
+}
+ul.product_list img {
+    width: 100%;
+}
+p.title_product {
+    text-align: center;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+p.price_product {
+    color: red;
+    text-align: center;
+}
+.main{
+    height: auto;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.footer{
+  
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
